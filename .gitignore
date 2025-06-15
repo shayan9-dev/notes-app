@@ -1,1 +1,56 @@
-.\env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints (if using any)
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# macOS & Linux system files
+.DS_Store
+*.swp
+
+# Python environment files
+.env
+.env.*
+
+# Mypy, Pyright, Pyre, etc.
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Test and coverage files
+coverage/
+*.cover
+*.pyc
+htmlcov/
+.tox/
+.nox/
+
+# Logs
+*.log
+
+# SQLite or local dev databases
+*.sqlite3
+
+# Alembic migrations (optional)
+alembic/versions/*.pyc
+
+# FastAPI openapi docs cache
+openapi.json
+
+# Cache
+.cache/
+__pypackages__/
