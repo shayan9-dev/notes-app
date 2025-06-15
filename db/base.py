@@ -1,2 +1,3 @@
-# from app.models import user  
-# from app.db.session import Base
+from sqlalchemy.orm import declarative_base
+
+Base = declarative_base()
