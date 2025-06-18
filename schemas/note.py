@@ -12,3 +12,10 @@ class NoteOut(NoteBase):
 
     class Config:
         orm_mode = True
+
+class NoteUpdate(BaseModel):
+       title: str
+       content: str
+
+       class Config:
+          orm_mode = True
